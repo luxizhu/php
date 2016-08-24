@@ -6,5 +6,10 @@ git commit -m "comment"
 
 git status
 
-git log -- pretty-oneline
+git log --pretty=oneline
 
+git reset --hard commit_id
+git reset --hard HEAD^
+git reset --hard HEAD~100
+
+git reflog
