@@ -13,3 +13,7 @@ git reset --hard HEAD^
 git reset --hard HEAD~100
 
 git reflog
+
+git diff HEAD -- filename
+
+git checkout -- filename
