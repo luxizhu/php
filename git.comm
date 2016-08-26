@@ -31,3 +31,9 @@ git clone git@server-name:path/repo-name.git
 git checkout -b new_branch
 
 git branch
+
+git checkout branch_name
+
+git merge branch
+
+git branch -d branch_name
