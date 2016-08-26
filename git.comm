@@ -27,3 +27,7 @@ git push origin master
 git remote add origin git@server-name:path/repo-name.git
 
 git clone git@server-name:path/repo-name.git
+
+git checkout -b new_branch
+
+git branch
