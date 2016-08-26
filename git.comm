@@ -17,3 +17,9 @@ git reflog
 git diff HEAD -- filename
 
 git checkout -- filename
+
+git remote add origin git@github.com:gitusername/repository
+
+git push -u origin master
+
+git push origin master
