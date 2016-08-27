@@ -14,3 +14,4 @@ build
 #My configurations
 /.idea
 *.xml
+workspace.xml
