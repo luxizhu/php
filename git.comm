@@ -39,7 +39,3 @@ git merge branch
 git branch -d branch_name
 
 git log --graph --pretty=oneline --abbrev-commit
-
-add merge
-
-use stash
