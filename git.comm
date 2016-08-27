@@ -37,3 +37,5 @@ git checkout branch_name
 git merge branch
 
 git branch -d branch_name
+
+Creating a new branch is quick & simple.
