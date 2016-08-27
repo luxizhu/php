@@ -12,5 +12,5 @@ dist
 build
 
 #My configurations
-.idea
+/.idea
 *.xml
