@@ -39,3 +39,21 @@ git merge branch
 git branch -d branch_name
 
 git log --graph --pretty=oneline --abbrev-commit
+
+git stash
+
+git stash list
+
+git stash pop
+
+git stash apply stash@{0}
+
+git push origin branch-name
+
+git pull
+
+git branch --set-upstream branch-name origin/branch-name
+
+git remote -v
+
+git checkout -b branch-name origin/branch-name
