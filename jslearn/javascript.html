@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        'use strict';
+        var Student={
+            name:'Robot',
+            height:1.2,
+            run:function(){
+                console.log(this.name+" is running...");
+            }
+        }
+
+        function createStudent(name){
+            var s = Object.create(Student);
+            s.name = name;
+            return s;
+        }
+
+        var xiaoming = createStudent('xiaoming');
+        xiaoming.run();
+        xiaoming.__proto__ === Student;
+
+        function Stu(props){
+            this.name=props.name || '';
+            this.grade=props.grade || 1;
+        }
+
+        Stu.prototype.hello = function(){
+            alert('Hello '+this.name+'!');
+        }
+
+        function createStu(props){
+            return new Stu(props || {});
+        }
+
+        var xiao = createStu({
+            name:'xiao',
+            grade:2
+        });
+
+//        alert(xiao.grade);
+
+    </script>
+</head>
+<body>
+<div id="arr">
+    <div id="test-div">
+        <p id="test-js">javascript</p>
+        <p>Java</p>
+    </div>
+</div>
+<script>
+    var js = document.getElementById('test-div').getElementsByTagName("p").length;
+    alert(js);
+</script>
+</body>
+</html>
