@@ -14,5 +14,4 @@ build
 #My configurations
 /.idea
 *.xml
-/gitignore
 workspace.xml
